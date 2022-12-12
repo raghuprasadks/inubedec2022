@@ -35,7 +35,6 @@ get
 file:///E:/kaushalya.tech/consultancy/inube/dec2022/programs/web/3-html-form.html?name=raghu&email=prasadraghuks%40gmail.com&mobile=9845547471&sex=male&ug=ug&pg=pg&location=bng&submit=Sign+up
 post
 file:///E:/kaushalya.tech/consultancy/inube/dec2022/programs/web/success.html
-
 Assignment for practive
 https://www.w3schools.com/html/
 html forms section
@@ -43,5 +42,6 @@ html forms section
 kaushalya technical training and consultancy
 http://www.kaushalya.tech/
 https://github.com/raghuprasadks/inubedec2022
+
 
  
