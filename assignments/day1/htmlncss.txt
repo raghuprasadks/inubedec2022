@@ -1,0 +1,4 @@
+1. Create web pages as specified in the excel sheet
+
+2. Web pages are related to cowin portal
+3. Apply proper CSS which you have learnt in the class
