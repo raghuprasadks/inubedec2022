@@ -1,0 +1,43 @@
+Raghu Prasad K S
+
+Web Application Development
+1. .NET fullstack web development
+C#,.NET,ASP.NET,.NET Core,MVC,Web API 
+2. React
+HTML/CSS/Java Script/React
+Front end -html/css/java script/
+React.js,angular 
+Back end
+Front end/backend
+option -1
+MVC - html/css/javascript/
+.NET
+option 2 
+Front end - react.js
+back end - .NET web api
+option 3
+front end - angular/react 
+back end - java/spring/spring boot 
+option 4 
+MEAN/MERN
+
+sublime text
+
+Getting started with web programming
+
+1. create a folder web
+
+HTML - Hyper Text Markup Language
+1-html-gettingstarted.html
+2-html-formelements.html
+3-html-form.html
+get
+file:///E:/kaushalya.tech/consultancy/inube/dec2022/programs/web/3-html-form.html?name=raghu&email=prasadraghuks%40gmail.com&mobile=9845547471&sex=male&ug=ug&pg=pg&location=bng&submit=Sign+up
+post
+file:///E:/kaushalya.tech/consultancy/inube/dec2022/programs/web/success.html
+
+Assignment for practive
+https://www.w3schools.com/html/
+html forms section
+
+ 

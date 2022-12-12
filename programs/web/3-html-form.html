@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Form</title>
+</head>
+<body>
+	<h1>Sign Up Form</h1>
+	<form method="post" action="success.html">
+		<label>Name</label>
+		<input type="text" name="name" required=""><br>
+		<label>Email</label>
+		<input type="email" name="email" required=""><br>
+		<label>Mobile</label>
+		<input type="number" name="mobile" readonly=""><br>
+		<label>Sex</label>
+		Male <input type="radio" name="sex" value="male">
+		Female <input type="radio" name="sex" value="female"><br>
+		<label>Qualification</label>
+		UG: <input type="checkbox" name="ug" value="ug">
+		PG: <input type="checkbox" name="pg" value="pg">
+		OTH :<input type="checkbox" name="oth" value="oth"><br>
+		<label>Location</label>
+		<select name="location">
+			<option value="bng">Bengaluru</option>
+			<option value="del">Delhi</option>
+			<option value="mum">Mumbai</option>
+			<option value="chn">Chennai</option>
+		</select><br>
+		<label>Comments</label>
+		<textarea></textarea><br>
+		<input type="submit" name="submit" value="Sign up">
+	</form>
+</body>
+</html>
