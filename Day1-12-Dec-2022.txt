@@ -47,6 +47,14 @@ table,date,date-time
 file
 ul,li,div
 
+CSS - Cascading Style Sheet
+
+.css
+
+1.inline - styling
+2. internal styling
+3. external styling
+
 
 
  
