@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array Built-in functions</title>
+</head>
+<body>
+<h1>Array Built-in functions</h1>
+<script type="text/javascript">
+	marks = []
+	console.log('create - array')
+	marks.push(20)
+	marks.push(22)
+	marks.push(18)
+	marks.push(21)
+	marks.push(17)
+	for (i=0;i<marks.length;i++){
+		console.log(marks[i])
+	}
+
+	console.log('update ')
+	marks[1]=23
+
+	for (let mark of marks){
+		console.log(mark)
+	}
+
+	removedelem = marks.pop()
+	console.log('removedelem ',removedelem)
+	console.log('after pop')
+	for (let mark of marks){
+		console.log(mark)
+	}
+	// removes element from the beginning of 
+	// an array
+	marks.shift()
+	console.log('after shift')
+	for (let mark of marks){
+		console.log(mark)
+	}
+
+	marks.unshift(10)
+	console.log('after unshift')
+	for (let mark of marks){
+		console.log(mark)
+	}
+</script>
+</body>
+</html>
