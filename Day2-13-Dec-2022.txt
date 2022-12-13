@@ -1,0 +1,9 @@
+Agenda: Java Script and SQL
+css - responsive web design
+
+Installated : MS SQL Server
+Microsoft server management studio
+
+Node.js - javascript server side run time 
+environment
+
