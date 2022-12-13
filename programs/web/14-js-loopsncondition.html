@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loops</title>
+</head>
+<body>
+
+	<h1>Loops</h1>
+
+	<script type="text/javascript">
+		console.log('print 10 table - while')
+		start = 10
+		end = 100
+		while (start <=end){
+			console.log(start)
+			start = start +10
+		}
+		console.log('print 10 table - for')
+		for (i=10;i<=100;i=i+10)
+			console.log(i)
+
+		age = 19
+		if (age>=18){
+			console.log("you are eligible to vote")
+		}else{
+			console.log('you are not eligible to vote')
+		}
+
+		console.log('for in loop')
+
+		const person = {fname:"John", lname:"Doe", age:25};
+
+		let text = " ";
+		for (let x in person) {
+  			text += person[x];
+		}
+
+		console.log('text ',text)
+
+		console.log('for -in array')
+		const numbers = [45, 4, 9, 16, 25];
+
+	let txt = "";
+	for (let x in numbers) {
+  	txt += numbers[x];
+	}
+
+	console.log('text ',txt)
+
+	const cars = ["BMW", "Volvo", "Mini"];
+	
+	console.log('for -off array')
+	let text1 = "";
+	for (let x of cars) {
+  		text1 += x;
+	}
+
+	console.log(' text -of',text1)
+
+	</script>
+
+</body>
+</html>
