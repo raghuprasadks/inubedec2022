@@ -23,4 +23,19 @@ discountpercent = 20%
 purchase >20000
 discountpercent = 25%
 
+DBMS - Database Management System
+
+RDBMS - Relational DBMS
+Oracle,MySQL,MS-SQL,sybase,postgres
+
+SQL - Structured Query Language
+
+
+create,read,update,delete
+searching
+tables
+
+
+
+
 

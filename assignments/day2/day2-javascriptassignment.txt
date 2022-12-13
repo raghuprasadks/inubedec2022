@@ -1,0 +1,26 @@
+Assignment:
+Develop an user interface to 
+calculate electricity bill payment
+
+Welcome to Electric
+Enter Units Consumed <text box>
+<Calculate>
+Bill Amount :
+unitsconsumed <=100
+rate = 1 rupee/unit
+unitsconsumed >100 && <=200
+rate = 2 rupee/unit
+unitsconsumed >200 
+rate = 4 rupee/unit
+
+Calculation is cumulative..
+Sample calculation
+unitsconsumed = 50
+billamount = unitsconsumed X 1 = 50 X 1 = 50
+unitsconsumed = 150
+billamount = first 100 unit = 100 X 1 = 100
+next fifty unit = 50 X2 =100
+total = 200
+
+ 
+
