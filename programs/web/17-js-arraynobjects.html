@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array N Objects</title>
+</head>
+<body>
+	<h1>Array N objects</h1>
+<script type="text/javascript">
+	employees =[
+	{
+		code:1,name:'ravi',sal:30000
+	},
+	{
+		code:2,name:'rohini',sal:25000
+	},
+	]
+	console.log('print the name and sal of employees')
+	totalsal = 0
+	for (i=0;i<employees.length;i++){
+		emp = employees[i]
+		console.log('name ',emp.name,' Salary',emp['sal'])
+		totalsal = totalsal +emp.sal
+	}
+	console.log('total sal ',totalsal)
+</script>
+</body>
+</html>
