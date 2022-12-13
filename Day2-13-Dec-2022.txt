@@ -16,13 +16,10 @@ Enter Purchase Value <text box>
 <Calculate>
 Net Amount :
 Discount :
-
 purchase <=10000
 discountpercent = 10%
-
 purchase >10000 && purchase <=20000
 discountpercent = 20%
-
 purchase >20000
 discountpercent = 25%
 

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<style type="text/css">
+		body{
+			background-color: lightblue;
+		}
+	</style>
+</head>
+<body>
+	<h1>eShoppe</h1>
+	<label>Enter Purchase Value</label>
+	<input type="text" name="purchaseamt" id="purchaseamt"><br>
+	<button onclick="calculate()">Calculate</button>
+	<br>
+	<label>Net Amount</label>
+	<h2 id="netamt"></h2><br>
+	<label>Discount</label>
+	<h2 id="discount"></h2><br>
+	
+	<script type="text/javascript">
+		function calculate(){
+			console.log('calculate')
+			//alert('calculate is clicked')
+			purchaseamt = parseInt(document.getElementById('purchaseamt').value)
+			netamt = 0
+			discount = 0
+			discountrate=0
+			if (purchaseamt <=10000)
+				discountrate = 10/100
+			else if (purchaseamt >10000 && purchaseamt<=20000)
+				discountrate = 20/100
+			else
+				discountrate = 25/100
+			discount= purchaseamt*discountrate
+			netamt = purchaseamt-discount
+			document.getElementById('netamt').innerHTML = netamt
+			document.getElementById('discount').innerHTML = discount
+			document.getElementById('purchaseamt').value=''
+			} 
+	</script>
+
+</body>
+</html>
