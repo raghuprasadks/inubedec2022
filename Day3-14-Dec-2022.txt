@@ -12,3 +12,38 @@ Java Script - Object Based
 Prototype
 SQL
 Introduction to C#
+
+
+SQL -
+
+Queries:
+1. Display data in customers table
+SELECT * FROM Customers;
+2. Display customers of Germany
+SELECT * FROM Customers where country='Germany'
+3. Display customers of Berlin in Germany
+SELECT * FROM Customers where country='Germany'
+ and city='Berlin'
+4. Count of German customers
+SELECT count(CustomerID) as customercount FROM Customers where country='Germany'
+5. Select unique country names
+SELECT distinct(Country) FROM Customers
+
+Assignment
+1. Display customers of Germany,Mexico and UK
+2. Insert atleast 2 records of Indian Customers
+3. delete customers of Sweden
+4. Display cutomers whose name starts with A
+5. Display product name and supplier name
+of all products
+6. Update city of customer having id =1
+to Munich
+7. create a new table corona
+and add following fields
+statecode - number - primary key
+name - string
+total - number
+active - number
+recovered - number
+death -number
+8. Insert two states data into corona table
