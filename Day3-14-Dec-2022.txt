@@ -178,6 +178,112 @@ END;
 
 EXECUTE newcoronalist;
 
+EXEC sp_help 'dbo.corona'; 
+
+
+C# - Programming language
+
+program,library,framework
+
+
+Java,
+Spring,Spring Boot,Hibernate
+Python,flask,DJango
+C#,.NET
+
+1. Desktop application
+2. Web application
+3. Gaming application/AR/VR
+4. Web API application
+
+cross platform
+
+specific to windows
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace csharptutorial
+{
+    internal class DataTypes_1
+    {
+    }
+}
+
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+        Console.ReadKey();
+    }
+}
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace csharptutorial
+{
+    internal class DataTypes_1
+    {
+        public static void DataTypesDemo()
+        {
+            string course = "C#";
+            Console.WriteLine("Course "+course);
+            int duration = 20;
+            Console.WriteLine("Course Duration "+course);
+        }
+    }
+}
+private static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+        DataTypes_1.DataTypesDemo();
+        Console.ReadKey();
+    }
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace csharptutorial
+{
+    internal class UserInputs_3
+    {
+        public static void UserInputDemo()
+        {
+            Console.WriteLine("Enter Your Name");
+            string name =Console.ReadLine();
+            Console.WriteLine("Your name is "+name);
+            Console.WriteLine("Enter Your Age");
+            int  age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Your age is " + age);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

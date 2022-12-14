@@ -1,0 +1,15 @@
+E:\kaushalya.tech\consultancy\inube\dec2022\programs\c#\csharpsolution\csharptutorial\bin\Debug\net6.0\csharptutorial.exe
+E:\kaushalya.tech\consultancy\inube\dec2022\programs\c#\csharpsolution\csharptutorial\bin\Debug\net6.0\csharptutorial.deps.json
+E:\kaushalya.tech\consultancy\inube\dec2022\programs\c#\csharpsolution\csharptutorial\bin\Debug\net6.0\csharptutorial.runtimeconfig.json
+E:\kaushalya.tech\consultancy\inube\dec2022\programs\c#\csharpsolution\csharptutorial\bin\Debug\net6.0\csharptutorial.dll
+E:\kaushalya.tech\consultancy\inube\dec2022\programs\c#\csharpsolution\csharptutorial\bin\Debug\net6.0\csharptutorial.pdb
+E:\kaushalya.tech\consultancy\inube\dec2022\programs\c#\csharpsolution\csharptutorial\obj\Debug\net6.0\csharptutorial.csproj.AssemblyReference.cache
+E:\kaushalya.tech\consultancy\inube\dec2022\programs\c#\csharpsolution\csharptutorial\obj\Debug\net6.0\csharptutorial.GeneratedMSBuildEditorConfig.editorconfig
+E:\kaushalya.tech\consultancy\inube\dec2022\programs\c#\csharpsolution\csharptutorial\obj\Debug\net6.0\csharptutorial.AssemblyInfoInputs.cache
+E:\kaushalya.tech\consultancy\inube\dec2022\programs\c#\csharpsolution\csharptutorial\obj\Debug\net6.0\csharptutorial.AssemblyInfo.cs
+E:\kaushalya.tech\consultancy\inube\dec2022\programs\c#\csharpsolution\csharptutorial\obj\Debug\net6.0\csharptutorial.csproj.CoreCompileInputs.cache
+E:\kaushalya.tech\consultancy\inube\dec2022\programs\c#\csharpsolution\csharptutorial\obj\Debug\net6.0\csharptutorial.dll
+E:\kaushalya.tech\consultancy\inube\dec2022\programs\c#\csharpsolution\csharptutorial\obj\Debug\net6.0\refint\csharptutorial.dll
+E:\kaushalya.tech\consultancy\inube\dec2022\programs\c#\csharpsolution\csharptutorial\obj\Debug\net6.0\csharptutorial.pdb
+E:\kaushalya.tech\consultancy\inube\dec2022\programs\c#\csharpsolution\csharptutorial\obj\Debug\net6.0\csharptutorial.genruntimeconfig.cache
+E:\kaushalya.tech\consultancy\inube\dec2022\programs\c#\csharpsolution\csharptutorial\obj\Debug\net6.0\ref\csharptutorial.dll

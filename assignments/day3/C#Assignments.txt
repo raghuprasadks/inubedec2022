@@ -1,0 +1,3 @@
+1.Write a program to calculate Compound Interest.
+Get the required inputs from the user.
+2. Discount and net amount calculation using the user inputs
