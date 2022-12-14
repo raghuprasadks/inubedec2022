@@ -105,6 +105,70 @@ group by customers.country having cnt>10
 order by cnt desc
 
 
+Subquery
+
+Query inside a query
+
+SELECT * FROM Customers where customerid not in (select customerid from orders);
+
+
+
+SELECT SupplierName
+FROM Suppliers
+WHERE EXISTS (SELECT ProductName FROM Products WHERE Products.SupplierID = Suppliers.supplierID AND Price < 20);
+
+ALTER TABLE table_name
+ALTER COLUMN column_name datatype;
+
+
+CREATE TABLE Persons (
+    ID int NOT NULL PRIMARY KEY,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Age int
+);
+
+
+Assignment
+
+
+create following tables
+
+table - countries
+countryid - pk
+countryname
+
+table - fifa
+year - pk
+countryid -pk
+matches - int
+won - int
+lost - int
+drawn - int
+points - int
+rank -int
+
+players
+
+countryid -pk
+playerid - pk
+name - varchar
+club - varchar
+goals - int
+
+
+insert atleast data for 2 countries
+3 players
+
+
+
+
+
+
+
+
+
+
 
 
 
