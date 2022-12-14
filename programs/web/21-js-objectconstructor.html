@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object Constructor</title>
+</head>
+<body>
+	<h1>Object Construtor</h1>
+
+<script type="text/javascript">
+		corona = function (name,total,active,recovered,death){
+			this.name = name;
+			this.total = total;
+			this.active =active;
+			this.recovered=recovered;
+			this.death = death;
+			this.info = function() {
+    		return "Name : " +this.name + " Total : " + this.total;
+  };
+	}
+
+	state1 = new corona('Karnataka',10000,1000,8000,1000)
+	state2 = new corona('Andhra Pradesh',20000,2000,16000,2000)
+
+	console.log('state 1 ',state1)
+	console.log('state 1 ',state1.total)
+	coronadashboard = []
+	coronadashboard.push(state1)
+	coronadashboard.push(state2)
+	grandtotal=0
+	for (i=0;i<coronadashboard.length;i++){
+		coronadata = coronadashboard[i]
+		//console.log(coronadata.name)
+		info = coronadata.info()
+		console.log(info)
+		grandtotal =grandtotal +coronadata.total
+	}
+	console.log("Grand Total : "+grandtotal)
+
+
+</script>
+</body>
+</html>
