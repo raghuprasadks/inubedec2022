@@ -160,6 +160,24 @@ goals - int
 insert atleast data for 2 countries
 3 players
 
+stored procedure
+
+
+
+CREATE PROCEDURE newcoronalist
+AS
+BEGIN
+    SELECT 
+        name, 
+        total
+    FROM 
+        corona
+    ORDER BY 
+        name;
+END;
+
+EXECUTE newcoronalist;
+
 
 
 
