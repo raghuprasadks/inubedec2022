@@ -47,3 +47,76 @@ active - number
 recovered - number
 death -number
 8. Insert two states data into corona table
+
+SQL Server
+MS SQL Server
+MS SQL Server Management Studio
+
+step 1 - create a database
+inubedec2022
+step 2 - create corona table
+step 3 - insert atleast 3 records
+
+Queries
+
+CategoryName
+ProductName
+
+SELECT products.ProductName, categories.CategoryName 
+FROM products,categories
+where categories.categoryid = products.categoryid
+
+
+SELECT products.ProductName, categories.CategoryName ,suppliers.suppliername 
+FROM products,categories,suppliers
+where categories.categoryid = products.categoryid and
+products.supplierid = suppliers.supplierid
+
+
+select sum(price) as totalprice from products
+
+select max(price) as maxprice from products
+
+select min(price) as minprice from products
+
+select avg(price) as avgprice from products
+
+select * from orders where customerid = 65
+
+
+select customers.customername,orders.orderid,orders.orderdate,products.productname from orders,orderdetails,products,customers
+where orders.customerid = 65 and
+orders.orderid = orderdetails.orderid and
+orderdetails.productid = products.productid and
+orders.customerid = customers.customerid
+
+total nubmer of orders placed by customers
+of diffirent countries
+
+
+select customers.country,count(orderid) as cnt from orders,customers
+where orders.customerid = customers.customerid
+group by customers.country
+order by cnt desc
+
+select customers.country,count(orderid) as cnt from orders,customers
+where orders.customerid = customers.customerid
+group by customers.country having cnt>10 
+order by cnt desc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
