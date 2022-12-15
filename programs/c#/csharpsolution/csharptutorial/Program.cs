@@ -51,6 +51,9 @@ internal class Program
         balance = act1.deposit(actno, 20000);
         Console.WriteLine("Balance after deposit of 20 K " + balance);
 
+        balance = act1.withdraw(actno, 5000);
+        Console.WriteLine("Balance after withdrawal of 5 K " + balance);
+
         Console.ReadKey();
     }
 }

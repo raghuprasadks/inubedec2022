@@ -32,5 +32,22 @@ namespace csharptutorial
             this.balance = this.balance + amttodeposit;
             return this.balance;
         }
+
+        public int withdraw(int actno, int amttodeposit)
+        {
+            this.balance = this.balance - amttodeposit;
+            return this.balance;
+        }
+
+        public int checkBalance(int actno)
+        {
+            return this.balance;
+        }
+
+
+        public string Information()
+        {
+            return $" Name : {this.name} Act No: {this.actno} Balance : {this.balance}";
+        }
     }
 }
