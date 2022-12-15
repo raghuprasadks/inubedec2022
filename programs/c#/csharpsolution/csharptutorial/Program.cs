@@ -30,7 +30,7 @@ internal class Program
 
          Company comp3 = new Company("3","XYZ","Nehru Road","Hubli",200);
          comp3.Information();
-        **/
+ 
         Calculator cacl = new Calculator();
         int result =cacl.add(100, 150);
 
@@ -39,8 +39,17 @@ internal class Program
         result = cacl.multiply(10, 15);
 
         Console.WriteLine("result of multiplication is " + result);
+               **/
 
+        Account act1 = new Account("raghu", "prasadraghuks@gmail.com", 9845547471L, "aadhar -282288");
+        Console.WriteLine("Account number "+act1.actno);
+        int actno = act1.actno;
+        int balance = 0;
+        balance=act1.deposit(actno, 10000);
+        Console.WriteLine("Balance after deposit of 10 K " + balance);
 
+        balance = act1.deposit(actno, 20000);
+        Console.WriteLine("Balance after deposit of 20 K " + balance);
 
         Console.ReadKey();
     }
