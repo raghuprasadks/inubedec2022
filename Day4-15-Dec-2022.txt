@@ -1,0 +1,21 @@
+C#
+Agenda:
+Math,String,loops,conditional statements,functions,arrays
+
+Assignment:
+
+1. Create an array of marks to store marks of n number of your friends
+in a test. 
+User user inputs to add the marks.
+Maxmimum marks should be 25 and minimum should be 0
+a. Find the total of all the marks
+b. Display marks of students who have scored less than 15.
+c. Find the average marks.
+
+15 minutes 
+
+How many students marks you have to enter
+Enter marks of students
+
+
+
