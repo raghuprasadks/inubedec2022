@@ -39,6 +39,33 @@ numberofemployees
 numberofbranches
 valuation
 
+1. Write a Calculator class
+having following methods
+
+public int add(int n1,int n2)
+return n1+n2
+
+multiply(int n1,int n2)
+
+2.
+Class Account
+having a constructor 
+a.name,email,mobile,address,idproof
+should create an account number
+having zero balance
+Random.Random(0,1000)
+b. deposit(int actno,float amt)
+amt to deposit will be added to your balance
+return the balance
+c. withdraw(int actno,float amt)
+amt to withdraw will be deducted from your balance
+return the balance
+d. checkBalance(int actno)
+return your balance
+e. Information()
+return the information about your account
+
+
 
 
 

@@ -27,13 +27,8 @@ namespace csharptutorial
             this.name = name;
             this.address = address;
             this.location = location;
-            this.noofemp = noofemp;
-            
+            this.noofemp = noofemp;            
         }
-
-
-
-
 
         // functionality
         public void Information()
