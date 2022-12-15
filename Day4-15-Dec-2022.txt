@@ -17,5 +17,32 @@ c. Find the average marks.
 How many students marks you have to enter
 Enter marks of students
 
+Object oriented programming
+
+Class - blue print - properties,functionalities
+Object
+
+Reusability,security,time n effort
+
+
+Insurance Company  
+
+class Company
+
+attributes - 
+code
+name
+promoter
+address
+location
+numberofemployees
+numberofbranches
+valuation
+
+
+
+
+
+
 
 
