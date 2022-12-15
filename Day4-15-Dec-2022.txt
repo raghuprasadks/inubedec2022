@@ -65,11 +65,62 @@ return your balance
 e. Information()
 return the information about your account
 
+3. Oops
+class,objects,constructor
 
+Inheritance
 
+class A  - Base
+class B - Derived
 
+polymorphism
+overload
+override
 
+Inheritance
 
+Vehicle
+property
+regno
+owner
+make
+model
+color
+price
+speed
+methods
+
+start()
+button start
+speed =0
+
+move()
+speed increases by 5
+
+stop()
+
+speed = 0
+
+Bike
+
+start()
+
+kick start
+
+move()
+speed = 10
+
+Car
+
+ac
+
+move()
+speed = 15
+
+switchonac()
+switchoffac()
+
+Bike : Vehicle
 
 
 

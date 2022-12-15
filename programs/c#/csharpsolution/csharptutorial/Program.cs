@@ -39,7 +39,7 @@ internal class Program
         result = cacl.multiply(10, 15);
 
         Console.WriteLine("result of multiplication is " + result);
-               **/
+               
 
         Account act1 = new Account("raghu", "prasadraghuks@gmail.com", 9845547471L, "aadhar -282288");
         Console.WriteLine("Account number "+act1.actno);
@@ -53,7 +53,11 @@ internal class Program
 
         balance = act1.withdraw(actno, 5000);
         Console.WriteLine("Balance after withdrawal of 5 K " + balance);
+        **/
 
+        MethodOverload mo = new MethodOverload();
+        int total = mo.add(100, 150);
+        Console.WriteLine("total :overload " + total);
         Console.ReadKey();
     }
 }
