@@ -53,11 +53,13 @@ internal class Program
 
         balance = act1.withdraw(actno, 5000);
         Console.WriteLine("Balance after withdrawal of 5 K " + balance);
-        **/
+        
 
         MethodOverload mo = new MethodOverload();
         int total = mo.add(100, 150);
         Console.WriteLine("total :overload " + total);
+        **/
+        InheritanceDemo.demoInheritance();
         Console.ReadKey();
     }
 }
