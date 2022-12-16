@@ -4,7 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        //Console.WriteLine("Hello, World!");
         //  DataTypes_1.DataTypesDemo();
         //  Operators_2.ArithmeticOperator();
 
@@ -58,8 +58,10 @@ internal class Program
         MethodOverload mo = new MethodOverload();
         int total = mo.add(100, 150);
         Console.WriteLine("total :overload " + total);
-        **/
+        
         InheritanceDemo.demoInheritance();
+        **/
+        InterfaceDemo.TestInterface();
         Console.ReadKey();
     }
 }

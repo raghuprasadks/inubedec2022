@@ -1,0 +1,18 @@
+Agenda
+1. Abstraction  - interface and abstract class
+IUniversalRemote
+
+2. Generics
+3. Data structures
+4. Exceptions
+5. delegate and event
+6. File management
+
+Interface
+IUniversalRemote
+
+public void SwitchOn();
+public void SwitchOff();
+public int ChangeVolume(int vol);
+public string ChangeChannel(string chanel);
+
