@@ -8,8 +8,7 @@ C#
 https://www.tutorialsteacher.com/csharp/csharp-sortedlist
 https://www.tutorialsteacher.com/csharp/csharp-dictionary
 3. https://www.tutorialsteacher.com/csharp/csharp-exception-handling
-
-Weekly test : 4.30 pm Programming test
+Weekly test : 4.30 pm Programming test (Collection framework)
 
 
 
