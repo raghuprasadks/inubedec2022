@@ -16,3 +16,25 @@ public void SwitchOff();
 public int ChangeVolume(int vol);
 public string ChangeChannel(string chanel);
 
+Create PhilipsTV class to implement IUniversalRemote interface
+
+
+Abstract Class
+
+RBI
+
+abstrat rateOfInterest()
+
+
+simpleInterest()
+{
+}
+
+
+SBI
+
+5%
+HDFC
+5.5%
+Karnataka
+6%

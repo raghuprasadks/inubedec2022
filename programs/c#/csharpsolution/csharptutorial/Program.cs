@@ -60,8 +60,10 @@ internal class Program
         Console.WriteLine("total :overload " + total);
         
         InheritanceDemo.demoInheritance();
-        **/
+        
         InterfaceDemo.TestInterface();
+        **/
+        AbstractDemo.abstractDemo();
         Console.ReadKey();
     }
 }

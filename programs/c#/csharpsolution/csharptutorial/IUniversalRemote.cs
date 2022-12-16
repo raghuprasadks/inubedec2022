@@ -8,7 +8,7 @@ namespace csharptutorial
 {
     internal interface IUniversalRemote
     {
-        public void SwitchOn();
+         void SwitchOn();
         public void SwitchOff();
         public int ChangeVolume(int vol);
         public string ChangeChannel(string chanel);

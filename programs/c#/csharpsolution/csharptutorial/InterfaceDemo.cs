@@ -20,6 +20,17 @@ namespace csharptutorial
             Console.WriteLine("Current Volume " + currentVolume);
             universalRemote.ChangeChannel("India TV");
             universalRemote.SwitchOff();
+
+            universalRemote = new PhilipsTV();
+            universalRemote.SwitchOn();
+            currentChannel = universalRemote.ChangeChannel("Sony Channel");
+            Console.WriteLine("Current Channel " + currentChannel);
+            currentVolume = universalRemote.ChangeVolume(22);
+            Console.WriteLine("Current Volume " + currentVolume);
+            universalRemote.ChangeChannel("CNBC");
+            universalRemote.SwitchOff();
+
+
         }
 
     }
@@ -52,6 +63,39 @@ namespace csharptutorial
         {
             this.status = true;
             Console.WriteLine("SonyTV:SwitchedOn");
+
+        }
+    }
+
+
+    internal class PhilipsTV : IUniversalRemote
+    {
+        bool status;
+        int currentVol;
+        string currentChannel;
+        public string ChangeChannel(string chanel)
+        {
+            this.currentChannel = chanel;
+            return this.currentChannel;
+        }
+
+        public int ChangeVolume(int vol)
+        {
+            this.currentVol = vol;
+            return this.currentVol;
+        }
+
+        public void SwitchOff()
+        {
+            this.status = false;
+            Console.WriteLine("PhilipsTV:SwitchedOff");
+
+        }
+
+        public void SwitchOn()
+        {
+            this.status = true;
+            Console.WriteLine("PhilipsTV:SwitchedOn");
 
         }
     }
