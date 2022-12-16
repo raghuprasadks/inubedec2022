@@ -38,3 +38,23 @@ HDFC
 5.5%
 Karnataka
 6%
+
+
+Collections
+
+list - duplicate values - addlist
+queue - FCFS - addqueue
+stack - LIFO - addstack
+set - does not allow duplicate values
+map - key value pair
+
+set of common interfaces - implementation classes to generalize
+operation on group of objects
+
+tutorialsteacher.com
+
+generics
+
+
+
+

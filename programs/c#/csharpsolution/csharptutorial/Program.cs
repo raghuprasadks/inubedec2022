@@ -62,8 +62,10 @@ internal class Program
         InheritanceDemo.demoInheritance();
         
         InterfaceDemo.TestInterface();
-        **/
+        
         AbstractDemo.abstractDemo();
+        **/
+        CollectionsDemo.DemoCollections();
         Console.ReadKey();
     }
 }
