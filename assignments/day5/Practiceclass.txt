@@ -6,6 +6,8 @@ https://www.tutorialsteacher.com/csharp/csharp-sortedlist
 https://www.tutorialsteacher.com/csharp/csharp-dictionary
 3. https://www.tutorialsteacher.com/csharp/csharp-exception-handling
 
+Exception - Create custom exception -InsufficientBalance
+call in in withdraw method of the account
 Weekly test : 4.30 pm Programming test (Collection framework)
 
 

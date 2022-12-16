@@ -72,3 +72,7 @@ Delegate
 
 https://www.tutorialsteacher.com/csharp/csharp-delegates
 
+Exception:
+
+
+Key words - try,catch,throw,throws,finally
