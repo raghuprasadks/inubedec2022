@@ -69,3 +69,6 @@ f. Find the account holder who has maximum balance - done
 
 
 Delegate
+
+https://www.tutorialsteacher.com/csharp/csharp-delegates
+
