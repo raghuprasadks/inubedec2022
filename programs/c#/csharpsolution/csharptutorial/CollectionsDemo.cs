@@ -66,7 +66,8 @@ namespace csharptutorial
         string name;
         string desg;
         string dept;
-        int salary;
+        // int salary;
+        public int salary { get; set; }
 
         public Employees()
         {
@@ -103,10 +104,15 @@ namespace csharptutorial
             empList.Add(emp2);
             empList.Add(emp3);
 
+            int totalsal = 0;
+
             foreach(Employees emp in empList)
             {
                 Console.WriteLine(emp.Informtion());
+                totalsal = totalsal + emp.salary;
             }
+
+            Console.WriteLine("total salary is " + totalsal);
         }
     }
 
