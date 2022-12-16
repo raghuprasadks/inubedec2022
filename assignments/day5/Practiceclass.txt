@@ -1,0 +1,16 @@
+Recap:
+
+C#
+
+
+1. Objects,oops - 
+2. Collections - Refer to tutorials teacher
+https://www.tutorialsteacher.com/csharp/csharp-sortedlist
+https://www.tutorialsteacher.com/csharp/csharp-dictionary
+3. https://www.tutorialsteacher.com/csharp/csharp-exception-handling
+
+Weekly test : 4.30 pm Programming test
+
+
+
+
