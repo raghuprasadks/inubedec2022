@@ -64,8 +64,10 @@ internal class Program
         InterfaceDemo.TestInterface();
         
         AbstractDemo.abstractDemo();
-        **/
+        
         CollectionsDemo.DemoCollections();
+        **/
+        DelegateDemo.delegateDemo();
         Console.ReadKey();
     }
 }

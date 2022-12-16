@@ -1,9 +1,9 @@
 Agenda
 1. Abstraction  - interface and abstract class
-IUniversalRemote
+IUniversalRemote - done
 
-2. Generics
-3. Data structures
+2. Generics - done
+3. Data structures - arraylist,list - done
 4. Exceptions
 5. delegate and event
 6. File management
@@ -65,4 +65,7 @@ b. Create a accountList - done
 c. Add above 5 accounts to the accountList - done
 d. Diplay informtion about all accounts - done
 e. Find the total balance of the account holders - done
-f. Find the account holder who has maximum balance
+f. Find the account holder who has maximum balance - done
+
+
+Delegate
