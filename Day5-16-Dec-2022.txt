@@ -60,9 +60,9 @@ generics
 1. Use Account class to find following
 
 a. Create atleast 5 accounts
-deposit different amounts to each account
-2. Create a accountList
-3. Add above 5 accounts to the accountList
-4. Diplay informtion about all accounts
-5. Find the total balance of the account holders
-6. Find the account holder who has maximum balance
+deposit different amounts to each account - done
+b. Create a accountList - done
+c. Add above 5 accounts to the accountList - done
+d. Diplay informtion about all accounts - done
+e. Find the total balance of the account holders - done
+f. Find the account holder who has maximum balance

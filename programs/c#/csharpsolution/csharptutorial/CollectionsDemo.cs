@@ -14,9 +14,12 @@ namespace csharptutorial
             /**
             ArrayListDemo ald = new ArrayListDemo();
             ald.demoArrayList();
-            **/
-            ListDemo listDemo = new ListDemo(); 
+           
+            ListDemo listDemo = new ListDemo();
             listDemo.listDemo();
+            **/
+            AccountManagement actmgmt = new AccountManagement();
+            actmgmt.manageAccount();
         }
     }
 
@@ -60,7 +63,8 @@ namespace csharptutorial
         }
     }
 
-    internal class Employees{
+    internal class Employees
+    {
 
         int code;
         string name;
@@ -80,7 +84,7 @@ namespace csharptutorial
             this.name = name;
             this.desg = desg;
             this.dept = dept;
-            this.salary = salary;   
+            this.salary = salary;
 
         }
 
@@ -106,7 +110,7 @@ namespace csharptutorial
 
             int totalsal = 0;
 
-            foreach(Employees emp in empList)
+            foreach (Employees emp in empList)
             {
                 Console.WriteLine(emp.Informtion());
                 totalsal = totalsal + emp.salary;
@@ -116,5 +120,51 @@ namespace csharptutorial
         }
     }
 
+    internal class AccountManagement
+    {
+        public void manageAccount()
+        {
+            List<Account> actList = new List<Account>();
 
+            Account act1 = new Account("ravi", "ravi@gmail.com", 999999L,"Aadhar-1");
+            actList.Add(act1);
+
+            int actnum1 = act1.actno;
+            Console.WriteLine("act num1 " + actnum1);
+            act1.deposit(actnum1, 10000);
+
+            Account act2 = new Account("ramya", "ramya@gmail.com", 999999L, "Aadhar-1");
+            actList.Add(act2);
+
+            int actnum2 = act2.actno;
+            Console.WriteLine("act num2 " + actnum1);
+            act2.deposit(actnum1, 25000);
+
+
+            
+            int totalbalance = 0;
+            int maxbalance = 0;
+            string maxbalactholder = "";
+            string actinfo = "";
+            foreach (Account act in actList)
+            {
+                Console.WriteLine(act.Information());
+                totalbalance = totalbalance + act.balance;
+
+                int actbal = act.balance;
+
+                if (actbal > maxbalance)
+                {
+                    maxbalance = actbal;
+                    maxbalactholder = act.name;
+                    actinfo = act.Information();
+                }
+            }
+
+            Console.WriteLine("total totalbalance is " + totalbalance);
+            Console.WriteLine("maximum balance is " + maxbalance);
+            Console.WriteLine("maximum balance account holder is " + maxbalactholder);
+            Console.WriteLine("Account information " + actinfo);
+        }
+    }
 }
