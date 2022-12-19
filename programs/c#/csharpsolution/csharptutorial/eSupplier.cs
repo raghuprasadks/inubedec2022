@@ -128,7 +128,9 @@ namespace csharptutorial
 
                 } 
             }
-            productList.RemoveAt(prodindextodel);
+            //productList.RemoveAt(prodindextodel);
+            Product prod = productList[prodindextodel];
+            deleteProduct(prod);
 
             Console.WriteLine("After delete: display products");
             displayProducts();
