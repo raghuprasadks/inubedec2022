@@ -43,3 +43,15 @@ ASP .NET Web Application (.NET Framework)
 Web Form
 
 Web Form with Master Page
+
+
+Sign up
+Name
+Email
+Mobile
+Sex - Male / Female (radio)
+Qualification - Check Box (up,pg,oth)
+location <drop down>
+date of birth <date>
+Remarks 
+Password

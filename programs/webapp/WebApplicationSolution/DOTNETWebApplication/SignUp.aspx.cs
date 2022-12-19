@@ -11,7 +11,14 @@ namespace DOTNETWebApplication
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            LabelPageLoad.Text = "Page_Load";
+        }
 
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            LabelButtonClick.Text = "Button1_Click";
+
+            LabelMsg.Text = TextBoxName.Text + " registration successful ";
         }
     }
 }
