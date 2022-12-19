@@ -55,5 +55,10 @@ location <drop down>
 date of birth <date>
 Remarks 
 Password
+DataList
+DataGrid
+https://www.javatpoint.com/asp-net-web-form-user-registration
+
+
 
 Reference - javatpoint asp.net
