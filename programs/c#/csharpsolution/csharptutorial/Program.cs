@@ -66,8 +66,12 @@ internal class Program
         AbstractDemo.abstractDemo();
         
         CollectionsDemo.DemoCollections();
-        **/
+        
         DelegateDemo.delegateDemo();
+        **/
+        eSupplier supplier = new eSupplier();
+        supplier.testSupplier();
+
         Console.ReadKey();
     }
 }

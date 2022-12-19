@@ -1,0 +1,37 @@
+Test on C#
+
+1. Create a Product class
+a. With default constructor
+b. With a constructor with following parameters
+code (int),name,desc,supplier,price (int)
+c. create an info method to display information collected while
+creating product object
+
+2 marks
+2. Create a eSupplier class
+a. Create a method addProduct()
+
+You have to create n number of products with the help of user inputs
+
+How many products do you want to create - 3
+loop through the no of products and ask the user to enter details of
+the product
+
+Enter Code
+Enter Name
+....
+Enter price
+2 marks
+b. Add the product to productList - List
+1
+c. Create displayProducts method to display all the products
+1 marks
+d. create productsBySupplier(string supplier) method to display
+prouducts belongling to a specific supplier
+1 marks
+e. create updateProduct(Product prdtoupd)  method to update price of an existing product
+1 marks
+f. create deleteProduct(Product prdtodel) method to delete a product
+1 marks
+g. create testSupplier method to test all the above scenarios
+1 marks

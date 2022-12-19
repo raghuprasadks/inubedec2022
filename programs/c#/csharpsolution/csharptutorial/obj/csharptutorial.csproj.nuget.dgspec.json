@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
         "outputPath": "E:\\kaushalya.tech\\consultancy\\inube\\dec2022\\programs\\c#\\csharpsolution\\csharptutorial\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
