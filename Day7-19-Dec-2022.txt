@@ -1,0 +1,45 @@
+1st Week:
+Web  - HTML/CSS/Java Script
+C#
+
+Agenda
+ASP .NET
+
+.NET framework
+
+Console Based Application
+Library
+Web Based Application
+ASP .NET
+ADO .NET (Database)
+MVC (Model View Controller)
+Web API
+
+JVM - Java
+C#,Visual Basic,F#
+
+Windows
+Cross platform - .NET Core
+
+Web Application
+Web Server
+Browser - client
+Request - > server
+server - response
+sends response to the browser
+
+http
+https
+
+JVM - Runtime Environment
+Write a java program
+You compile - bytecode
+bytecode on JVM
+
+CSS framework -bootstrap-twitter bootstrap
+
+ASP .NET Web Application (.NET Framework)
+
+Web Form
+
+Web Form with Master Page
