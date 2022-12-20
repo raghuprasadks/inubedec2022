@@ -13,5 +13,20 @@ namespace DOTNETWebApplication
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            string email = TextBoxEmail.Text;
+            string password = TextBoxPassword.Text;
+
+            if (email.Equals("admin@gmail.com") && password.Equals("admin"))
+            {
+                Response.Redirect("~/Home");
+            }
+            else
+            {
+                LabelResult.Text = "Invalid User Name or Password";
+            }
+        }
     }
 }

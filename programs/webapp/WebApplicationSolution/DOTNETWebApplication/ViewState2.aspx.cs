@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace DOTNETWebApplication
 {
-    public partial class ViewStateForm : System.Web.UI.Page
+    public partial class ViewState2 : System.Web.UI.Page
     {
         //int counter = 0;
         int ClicksCount = 1;

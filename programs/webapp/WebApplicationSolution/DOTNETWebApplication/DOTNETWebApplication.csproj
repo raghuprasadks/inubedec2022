@@ -126,6 +126,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Home.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -157,7 +158,8 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="SignUp.aspx" />
     <Content Include="Site.Master" />
-    <Content Include="ViewStateForm.aspx" />
+    <Content Include="ViewState2.aspx" />
+    <Content Include="ViewState1.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -197,6 +199,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -226,12 +235,19 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="ViewState2.aspx.cs">
+      <DependentUpon>ViewState2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewState2.aspx.designer.cs">
+      <DependentUpon>ViewState2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewStateForm.aspx.cs">
-      <DependentUpon>ViewStateForm.aspx</DependentUpon>
+      <DependentUpon>ViewState1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewStateForm.aspx.designer.cs">
-      <DependentUpon>ViewStateForm.aspx</DependentUpon>
+      <DependentUpon>ViewState1.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
