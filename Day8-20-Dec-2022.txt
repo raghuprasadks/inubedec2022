@@ -15,3 +15,12 @@ Enter Second Number <text box>
 Result of 2 + 5 = 7
 Result of 5 - 2 = 3
 
+https://www.youtube.com/watch?v=lBTad38EQz4
+
+ViewState
+SessionState
+ApplicationState
+
+http - stateless protocol
+
+https://csharp-video-tutorials.blogspot.com/p/free-aspnet-video-tutorial.html
