@@ -56,7 +56,7 @@
                         <li><a runat="server" href="~/SignUp">Sign Up</a></li>
 
                         <li><a runat="server" href="~/Login">Login</a></li>
-                        <li><a runat="server" href="~/Login">Login</a></li>
+                       
                         <li><a runat="server" href="~/Calculator">Calculator</a></li>
                     
                     </ul>

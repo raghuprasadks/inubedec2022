@@ -29,3 +29,26 @@ https://csharp-video-tutorials.blogspot.com/p/free-aspnet-video-tutorial.html
 Registration
 Login
 Home
+
+
+1. Enable Registration and Login forms
+1. Create following form to collect Corona Information
+Form Name - Corona.aspx and add this to site.master
+Label :  Corona Form
+
+State : <state drop down> - Southern states
+Active Cases : <text box with number>
+Recovered Cases : <text box with number>
+Death Cases : <text box with number>
+Total Cases : <text box with number> read only field
+<Submit>
+
+Apply the validations
+Above fields should be mandatory
+Redirect to coronadash.aspx
+Welcome : <statename> Total Cases: total cases
+
+
+
+
+

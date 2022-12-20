@@ -21,6 +21,7 @@ namespace DOTNETWebApplication
 
             if (email.Equals("admin@gmail.com") && password.Equals("admin"))
             {
+                Session["email"] = email;
                 Response.Redirect("~/Home");
             }
             else
