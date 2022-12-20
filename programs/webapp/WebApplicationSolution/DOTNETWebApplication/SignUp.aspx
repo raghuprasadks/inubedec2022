@@ -18,6 +18,12 @@
     <asp:CheckBox ID="CheckBoxUG" runat="server" Text="UG" />
     <asp:CheckBox ID="CheckBoxPG" runat="server" Text="PG"/>
     <asp:CheckBox ID="CheckBoxOTH" runat="server" Text="OTH" /><br />
+    <asp:Label ID="Label8" runat="server" Text="Location"></asp:Label>
+    <asp:DropDownList ID="DropDownList1" runat="server">
+        <asp:ListItem>Bengaluru</asp:ListItem>
+        <asp:ListItem>Mysore</asp:ListItem>
+        <asp:ListItem>Shimoga</asp:ListItem>
+    </asp:DropDownList><br />
     <asp:Button ID="Button1" runat="server" Text="Sign Up" OnClick="Button1_Click" /><br />
     <asp:Label ID="LabelPageLoad" runat="server" Text=" "></asp:Label><br />
     <asp:Label ID="LabelButtonClick" runat="server" Text=" "></asp:Label><br />
