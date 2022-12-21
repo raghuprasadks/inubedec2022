@@ -13,6 +13,7 @@ namespace adonetconsole
         {
 //            CreateTable();
             InsertData();
+            Console.ReadKey();
         }
 
         static void CreateTable()
@@ -20,9 +21,11 @@ namespace adonetconsole
             SqlConnection con = null;
             try
             {
-                // Creating Connection  
-                con = new SqlConnection("data source=.; database=student; integrated security=SSPI");
-                // writing sql query  
+                // Creating Connection  windows authetication
+                //  con = new SqlConnection("data source=.; database=student; integrated security=SSPI");
+                // writing sql query 
+                // sql server authentication with user id and password
+                con = new SqlConnection("Server = RAGHUPRASAD; Database = student; User Id = sa; Password = inube@123");
                 SqlCommand cm = new SqlCommand("create table student(id int not null,name varchar(100), email varchar(50), join_date date)", con);  
                 // Opening Connection  
                 con.Open();
