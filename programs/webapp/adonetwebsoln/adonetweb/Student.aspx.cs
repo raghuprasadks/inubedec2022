@@ -47,7 +47,7 @@ namespace adonetweb
 
                 using (SqlConnection con1 = new SqlConnection(strcon))
                 {
-                    SqlDataAdapter sde = new SqlDataAdapter("Select * from students", con);
+                    SqlDataAdapter sde = new SqlDataAdapter("Select * from students", con1);
                     DataSet ds = new DataSet();
                     sde.Fill(ds);
                     GridView1.DataSource = ds;
