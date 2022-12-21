@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
@@ -41,8 +42,21 @@ namespace adonetweb
                 sdr.Read();
                 LabelData.Text = " ";
                 LabelData.Text += $"User Name  {sdr["name"].ToString()}";
-               // Label3.Text = "Email ID"; Label6.Text = sdr["email"].ToString();
+                // Label3.Text = "Email ID"; Label6.Text = sdr["email"].ToString();
                 //Label4.Text = "Contact"; Label7.Text = sdr["contact"].ToString();
+
+                using (SqlConnection con1 = new SqlConnection(strcon))
+                {
+                    SqlDataAdapter sde = new SqlDataAdapter("Select * from students", con);
+                    DataSet ds = new DataSet();
+                    sde.Fill(ds);
+                    GridView1.DataSource = ds;
+                    GridView1.DataBind();
+                }
+
+
+
+
             }
             catch (Exception ex)
             {

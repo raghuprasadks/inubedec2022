@@ -18,4 +18,6 @@
 
     <asp:Label ID="LabelData" runat="server" Text=""></asp:Label>
 
+    <asp:GridView ID="GridView1" runat="server"></asp:GridView>
+
 </asp:Content>
