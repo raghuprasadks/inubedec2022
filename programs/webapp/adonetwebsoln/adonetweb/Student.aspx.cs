@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
@@ -21,7 +22,10 @@ namespace adonetweb
             try
             {
                 // Creating Connection  
-                con = new SqlConnection("data source=.; database=student; integrated security=SSPI");
+                // con = new SqlConnection("data source=.; database=student; integrated security=SSPI");
+                //Get connection string from web.config file  
+                string strcon = ConfigurationManager.ConnectionStrings["dbconnection"].ConnectionString;
+                con = new SqlConnection(strcon);
                 // Writing insert query  
                 string query = "insert into students(name,email,address) values('" + TextBoxName.Text + "','" + TextBoxEmail.Text + "','" + TextBoxAddress.Text + "')";  
                 SqlCommand sc = new SqlCommand(query, con);
