@@ -1,0 +1,24 @@
+
+ADO .NET - ActiveX Data Objects
+
+Working with database
+SQL studio - client
+MS SQL Server 
+Database
+
+1. Create a database
+2. Create a table
+
+C# program
+
+3. Establish connection with the database
+4. Write a query
+5. Execute the query
+6. Display the result
+
+https://www.javatpoint.com/ado-net-sql-server-connectivity
+
+solution - adonetconsolesoln
+project - adonetconsole
+console - .net C#
+ 
