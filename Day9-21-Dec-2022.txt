@@ -22,3 +22,10 @@ solution - adonetconsolesoln
 project - adonetconsole
 console - .net C#
 https://www.connectionstrings.com/sql-server-2019/ 
+
+
+solution - adonetwebsoln
+project - adonetweb
+
+https://www.javatpoint.com/ado-net-web-form-example
+
