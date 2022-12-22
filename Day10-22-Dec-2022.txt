@@ -1,0 +1,27 @@
+ASP .NET MVC
+
+MVC - Model View Controller
+
+ASP .NET Webforms - tight coupling
+
+loopse coupling
+View Engines
+Model - data
+Controller - Recevies the request-Model - View
+Razor - html + C#code - html helpers
+.NET Web Application - MVC
+MVCWebApplicationSolution
+MVCWebApplication
+<a href="/Home/About">About</a>
+<a href="/">Home</a>
+
+ <li>@Html.ActionLink("Home", "Index", "Home")</li>
+
+New Controller - StudentController- Empty
+
+StudentController
+
+http://localhost:53934/Student
+
+
+
