@@ -9,16 +9,32 @@ namespace MVCWebApplication.Controllers
 {
     public class HospitalController : Controller
     {
-        IList<Hospital> hospitalList= new List<Hospital>();
+
+        static IList<Hospital> hospitalList = new List<Hospital>{
+                new Hospital() {Id = 1, Name = "Manipal", Location = "Bengaluru" } ,
+                new Hospital() { Id = 1, Name = "Aster", Location = "Mysore"  } };
+
+
         // GET: Hospital
         public ActionResult Index()
         {
+            /**
             Hospital hospital1 = new Hospital();
             hospital1.Id = 1;
             hospital1.Name = "Manipal Hospital";
             hospital1.Location = "Bengaluru";
             hospitalList.Add(hospital1);
+    
+            if (ViewData["hospitalList"] == null)
+            {
+                ViewData["hospitalList"] = hospitalList;
 
+            }
+            else
+            {
+                hospitalList = (IList<Hospital>)ViewData["hospitalList"];
+            }
+    **/
             return View(hospitalList);
         }
 
@@ -36,12 +52,15 @@ namespace MVCWebApplication.Controllers
 
         // POST: Hospital/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create([Bind(Include = "Id, Name,Location")] Hospital hospital)
         {
             try
             {
                 // TODO: Add insert logic here
-
+                // int id = (int)collection["Id"];
+               // hospital.Id = 1;
+                hospitalList.Add(hospital);
+              //  ViewData["hospitalList"] = hospitalList;
                 return RedirectToAction("Index");
             }
             catch

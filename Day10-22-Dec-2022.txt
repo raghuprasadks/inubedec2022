@@ -39,6 +39,19 @@ Generates view
 <a href="/Hospital/Create">Create New</a>
 
 
+LINQ (Language Integrated Query) 
+
+
+
+
+MVC Todos
+Step1 - model Todos - Id,name,status
+Step2 - TodosController - mvc5 with read write action
+
+Add View - Index() - List - with model todos
+
+
+
 
 
 

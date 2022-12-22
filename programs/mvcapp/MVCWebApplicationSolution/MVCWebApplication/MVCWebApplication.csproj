@@ -126,12 +126,14 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HospitalController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
+    <Compile Include="Controllers\TodosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Corona.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\Hospital.cs" />
+    <Compile Include="Models\Todos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -178,6 +180,12 @@
     <Content Include="Views\Customer\Index.cshtml" />
     <Content Include="Views\Corona\Index.cshtml" />
     <Content Include="Views\Hospital\Index.cshtml" />
+    <Content Include="Views\Hospital\Create.cshtml" />
+    <Content Include="Views\Todos\Index.cshtml" />
+    <Content Include="Views\Todos\Create.cshtml" />
+    <Content Include="Views\Todos\Details.cshtml" />
+    <Content Include="Views\Todos\Delete.cshtml" />
+    <Content Include="Views\Todos\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
