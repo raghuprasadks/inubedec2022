@@ -80,18 +80,15 @@ namespace MVCWebApplication.Controllers
             {
                 // TODO: Add update logic here
 
-                int editindex=-1`;
+                int editindex=-1;
                 for (int i=0;i< todosList.Count;i++)
                 {
                     if (todosList[i].Id == todotoedit.Id)
                     {
-                        editindex = i;
+                        todosList[i]= todotoedit;
                     }
                 }
-                //todosList.ElementAt(editindex)
-               //Todos todoedit = todosList.ElementAt(editindex);
-                //todosList.IndexOf(editindex)
-
+                
                 return RedirectToAction("Index");
             }
             catch
