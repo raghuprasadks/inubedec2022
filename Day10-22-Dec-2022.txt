@@ -50,6 +50,12 @@ Step2 - TodosController - mvc5 with read write action
 
 Add View - Index() - List - with model todos
 
+data source=RAGHUPRASAD\SQLEXPRESS;initial catalog=demodb;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework
+
+Bootstrap - Web framework - CSS
+Responsive web application
+
+
 
 
 

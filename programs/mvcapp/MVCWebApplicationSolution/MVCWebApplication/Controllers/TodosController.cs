@@ -117,9 +117,7 @@ namespace MVCWebApplication.Controllers
         {
             try
             {
-                // TODO: Add delete logic here
-                //todosList.Remove(todos);
-                //todosList = (todo) => todo.id != id;
+                
                 IList<Todos> todosAfterDelete = new List<Todos>();
                 for (int i=0;i< todosList.Count; i++)
                 {
@@ -129,6 +127,8 @@ namespace MVCWebApplication.Controllers
                     }
                 }
                 todosList = todosAfterDelete;
+                
+             //   todosList.Remove(todos);
                 return RedirectToAction("Index");
             }
             catch
