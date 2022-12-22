@@ -23,5 +23,24 @@ StudentController
 
 http://localhost:53934/Student
 
+Model  - Hospital - C#class
+Id
+Name
+Location
+
+Controller - HospitalController
+MVC5ControllerWithReadWrite option
+
+Add View
+List
+Model as Hospital
+Generates view
+
+<a href="/Hospital/Create">Create New</a>
+
+
+
+
+
 
 
