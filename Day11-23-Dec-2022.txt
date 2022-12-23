@@ -1,0 +1,15 @@
+BS - Navigation bar - done
+CDN - Content Delivery Network
+ASP .NET MVC
+- Registration and Login module - database
+
+Single layered or multilayered
+https://qawithexperts.com/article/asp-net/how-to-create-login-registration-page-in-mvc-with-database-a/170
+Entity Framework ORM - Object Relational Mapping
+ASP .NET Core MVC 
+
+1. Create MVC project - MVCRegistrationNLogin
+2. View->SQL Server Object Explorer
+3. ADD SQL Server->Express Edition
+4. ADD new database MVC Demo
+
