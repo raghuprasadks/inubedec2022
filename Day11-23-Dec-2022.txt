@@ -7,9 +7,41 @@ Single layered or multilayered
 https://qawithexperts.com/article/asp-net/how-to-create-login-registration-page-in-mvc-with-database-a/170
 Entity Framework ORM - Object Relational Mapping
 ASP .NET Core MVC 
+Database first approach
 
 1. Create MVC project - MVCRegistrationNLogin
 2. View->SQL Server Object Explorer
 3. ADD SQL Server->Express Edition
 4. ADD new database MVC Demo
+
+
+
+Customer - CRUD
+
+Step 1 - customers table
+id - int - pk -Identity
+name - varchar(50)
+email - varchar(50)
+mobile - bigint
+location - varchar(50)
+Step 2 - Generate Entity Framework model i,e database first
+approach
+Step 3  - Create CustomersController and attach cusotomers model
+
+C:\Users\lenovo\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB
+
+mvccrudsoln
+mvccrudproj
+
+https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/database-first-development/creating-the-web-application
+
+
+Entity model
+Relationship
+
+Customer - Order
+One to many
+https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/database-first-development/setting-up-database
+
+
 
