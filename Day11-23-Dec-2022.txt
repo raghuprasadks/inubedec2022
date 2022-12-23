@@ -44,5 +44,14 @@ One to many
 use below link
 https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/database-first-development/setting-up-database
 
+authentication  - login credentials
+and authorization
+
+Task for Saturday - 24-Dec
+https://www.c-sharpcorner.com/article/forms-authentication-in-mvc/
+https://www.c-sharpcorner.com/article/role-based-authentication-in-asp-net-mvc/
+
+
+
 
 
