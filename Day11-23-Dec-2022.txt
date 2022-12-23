@@ -40,7 +40,8 @@ Entity model
 Relationship
 
 Customer - Order
-One to many
+One to many 
+use below link
 https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/database-first-development/setting-up-database
 
 
