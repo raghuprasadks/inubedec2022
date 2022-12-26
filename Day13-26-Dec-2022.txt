@@ -1,0 +1,86 @@
+Web API
+API - Application Programming Interface
+
+Project - functionalities available 
+in another application over the 
+Web
+
+User management
+
+Example - Aadhar application - Web API
+client - vaccination application
+client - jio sim
+client - passport
+VerifyAadhar(aadhar number)
+output : aadhar details
+Web services - RESTFUL WEB Service
+
+REST - Representational State Transfer
+
+http protocols - post,get,put,delete
+
+json - Java Script Object Notation
+
+
+Step1 - Create webapi project
+mvc controller extends from - Controller
+webapi controllers extends from - ApiController
+no view
+
+use whatsapp chat window to confirm whether you have created  project
+
+postman is a tool to test webapi
+open postman
+ask your network team to install postman
+windowns app
+create new-http Request
+GET - http://localhost:53525/api/values
+
+GET - http://localhost:53525/api/values/5
+
+install postman - windows app
+
+Query parameter - key : value
+name:raghu
+city:blr
+After ? name=raghu&city=blr
+Query string
+
+
+http://localhost:53525/api/values?name=raghu&city=blr
+
+
+for post,put kind of request .. we have to give body,json
+{
+    "value":"sample"
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v
+
