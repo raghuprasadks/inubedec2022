@@ -57,6 +57,10 @@ for post,put kind of request .. we have to give body,json
 }
 
 
+Model : Product
+ProductController
+get -method
+
 
 
 
