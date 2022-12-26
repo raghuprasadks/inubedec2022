@@ -62,6 +62,39 @@ ProductController
 get -method
 
 
+Step 1  - Create Course table
+CourseID (ID, Auto number),Title,Credits
+Step 2 - Generate a Entity Model
+ADO .NET Entity Model
+CourseModel
+Step 3 - Generate CourseController - Web API
+Web API2 Controller with actions using Entity Framework
+
+Post request
+http://localhost:53525/api/Courses
+
+{
+        
+        "Title": "Web Development",
+        "Credits": 6
+}
+
+For get 
+http://localhost:53525/api/Courses
+for get with id
+http://localhost:53525/api/Courses/2
+update
+http://localhost:53525/api/Courses/2
+
+{
+        
+        "Title": "Mobile Development new",
+        "Credits": 6
+}
+
+delete
+http://localhost:53525/api/Courses/2
+
 
 
 
