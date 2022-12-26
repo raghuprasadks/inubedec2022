@@ -96,6 +96,21 @@ delete
 http://localhost:53525/api/Courses/2
 
 
+How to consume web API
+
+Development of UI with webapi
+MVC -Web API - Database
+
+WebAPI gives data in the form of JSON
+
+https://www.tutorialsteacher.com/webapi/create-web-api-for-crud-operation
+
+Step 1 - create db - webapidb
+step 2 - create tables
+step3 - Create models
+
+
+
 
 
 
