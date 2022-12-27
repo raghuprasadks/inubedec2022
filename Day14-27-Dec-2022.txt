@@ -27,3 +27,18 @@ Create ProductMVCController - using product model
 http://localhost:56321/api/products
 
 
+Console based
+Webforms
+mvc
+web api
+
+.net core
+
+1. Create .net core project
+mvc
+
+update,delete,details
+
+
+
+
