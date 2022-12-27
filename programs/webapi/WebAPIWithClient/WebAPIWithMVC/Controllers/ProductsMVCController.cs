@@ -52,6 +52,7 @@ namespace WebAPIWithMVC.Controllers
         // GET: ProductsMVC/Details/5
         public ActionResult Details(int? id)
         {
+            /**
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
@@ -60,6 +61,34 @@ namespace WebAPIWithMVC.Controllers
             if (product == null)
             {
                 return HttpNotFound();
+            }
+            return View(product);
+            **/
+            Product product = null;
+
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("http://localhost:56321/api/");
+                //HTTP GET
+                var responseTask = client.GetAsync("products?id="+id.ToString());
+                responseTask.Wait();
+
+                var result = responseTask.Result;
+                if (result.IsSuccessStatusCode)
+                {
+                    var readTask = result.Content.ReadAsAsync<Product>();
+                    readTask.Wait();
+
+                    product = readTask.Result;
+                }
+                else //web api sent error response 
+                {
+                    //log response status here..
+
+                    product = new Product();
+
+                    ModelState.AddModelError(string.Empty, "Server error. Please contact administrator.");
+                }
             }
             return View(product);
         }
@@ -109,6 +138,7 @@ namespace WebAPIWithMVC.Controllers
                 }
             }
             return View(product);
+
             /**
             if (id == null)
             {
@@ -163,6 +193,7 @@ namespace WebAPIWithMVC.Controllers
         // GET: ProductsMVC/Delete/5
         public ActionResult Delete(int? id)
         {
+            /**
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
@@ -173,6 +204,27 @@ namespace WebAPIWithMVC.Controllers
                 return HttpNotFound();
             }
             return View(product);
+    **/
+            Product product = null;
+
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("http://localhost:56321/api/");
+                //HTTP GET
+                var responseTask = client.GetAsync("products?id=" + id.ToString());
+                responseTask.Wait();
+
+                var result = responseTask.Result;
+                if (result.IsSuccessStatusCode)
+                {
+                    var readTask = result.Content.ReadAsAsync<Product>();
+                    readTask.Wait();
+
+                    product = readTask.Result;
+                }
+            }
+            return View(product);
+
         }
 
         // POST: ProductsMVC/Delete/5
@@ -180,9 +232,28 @@ namespace WebAPIWithMVC.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
+            /**
             Product product = db.Products.Find(id);
             db.Products.Remove(product);
             db.SaveChanges();
+            return RedirectToAction("Index");
+    **/
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("http://localhost:56321/api/");
+
+                //HTTP DELETE
+                var deleteTask = client.DeleteAsync("products/" + id.ToString());
+                deleteTask.Wait();
+
+                var result = deleteTask.Result;
+                if (result.IsSuccessStatusCode)
+                {
+
+                    return RedirectToAction("Index");
+                }
+            }
+
             return RedirectToAction("Index");
         }
 
