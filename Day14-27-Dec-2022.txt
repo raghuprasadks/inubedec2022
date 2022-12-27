@@ -1,0 +1,29 @@
+Recap:
+Web API - Web Service
+
+Clients  - 
+Consolebased application
+MVC Application
+Mobile Application
+
+Controller:ApiController
+
+http protocols
+
+post,get,put,delete - postman
+
+Consume the webapi
+
+End points of web api
+ipaddress:port/api
+
+Product
+Id,Name,Desc,Manufacturer,Price
+
+ProductsController- Code generation
+
+Create ProductMVCController - using product model
+
+http://localhost:56321/api/products
+
+
