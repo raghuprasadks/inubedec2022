@@ -37,17 +37,19 @@ namespace WebAPIWithMVC.Controllers
 
         // PUT: api/Products/5
         [ResponseType(typeof(void))]
-        public IHttpActionResult PutProduct(int id, Product product)
+        public IHttpActionResult PutProduct(Product product)
+        // public IHttpActionResult PutProduct(int id, Product product)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-
+            /**
             if (id != product.Id)
             {
                 return BadRequest();
             }
+    **/
 
             db.Entry(product).State = EntityState.Modified;
 
@@ -57,7 +59,7 @@ namespace WebAPIWithMVC.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ProductExists(id))
+                if (!ProductExists(product.Id))
                 {
                     return NotFound();
                 }

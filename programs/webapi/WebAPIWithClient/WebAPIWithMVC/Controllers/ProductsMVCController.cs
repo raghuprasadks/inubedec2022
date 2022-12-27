@@ -90,6 +90,26 @@ namespace WebAPIWithMVC.Controllers
         // GET: ProductsMVC/Edit/5
         public ActionResult Edit(int? id)
         {
+            Product product = null;
+
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("http://localhost:56321/api/");
+                //HTTP GET
+                var responseTask = client.GetAsync("products?id=" + id.ToString());
+                responseTask.Wait();
+
+                var result = responseTask.Result;
+                if (result.IsSuccessStatusCode)
+                {
+                    var readTask = result.Content.ReadAsAsync<Product>();
+                    readTask.Wait();
+
+                    product = readTask.Result;
+                }
+            }
+            return View(product);
+            /**
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
@@ -100,6 +120,7 @@ namespace WebAPIWithMVC.Controllers
                 return HttpNotFound();
             }
             return View(product);
+    **/
         }
 
         // POST: ProductsMVC/Edit/5
@@ -109,11 +130,32 @@ namespace WebAPIWithMVC.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "Id,Name,Desc,Manu,Price")] Product product)
         {
+            /**
             if (ModelState.IsValid)
             {
                 db.Entry(product).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
+            }
+            return View(product);
+    **/
+
+
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("http://localhost:56321/api/");
+
+                //HTTP POST
+                //  var putTask = client.PutAsJsonAsync<Product>("products", product);
+                var putTask = client.PutAsJsonAsync<Product>("products", product);
+                putTask.Wait();
+
+                var result = putTask.Result;
+                if (result.IsSuccessStatusCode)
+                {
+
+                    return RedirectToAction("Index");
+                }
             }
             return View(product);
         }
