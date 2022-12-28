@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array functions</title>
+</head>
+<body>
+	<h1>Array Functions</h1>
+<script type="text/javascript">
+	marks = [10,24,23,18,19,15,9]
+
+	console.log('regular for loop')
+	for (i=0;i<marks.length;i++){
+		console.log(marks[i])
+	}
+
+	console.log('multiply elements of array by 2 and create a new array')
+	marksdouple = []
+	for (i=0;i<marks.length;i++){
+		marksdouple[i]=marks[i]*2
+	}
+	console.log('after doubling ',marksdouple)
+	console.log('higher order functions - map - you can pass function as a parameter')
+
+	function double(value){
+		return value *2;
+	}
+	doubledarr = marks.map(double)
+	console.log('doubledarr ',doubledarr)
+
+	console.log('map with arrow function')
+
+	doublearrow = marks.map((mark)=>mark*2)
+	console.log('doublearrow ',doublearrow)
+
+	marks.map((mark,i)=>console.log('value ',mark, ' index ' ,i))
+	
+</script>
+</body>
+</html>
