@@ -45,3 +45,7 @@ modified app.js
 Create a component
 functional component
 class component
+
+
+1. Header component
+2. Content component
