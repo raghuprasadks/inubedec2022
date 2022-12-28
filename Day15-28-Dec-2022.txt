@@ -10,5 +10,7 @@ java script
 Higher order functions
 map,filter,reduce - 
 ES - Ecma Script - official name
-ES5 - 2015 class,module,
+ES5 - 2015 class,module,export,spread
 ES6
+
+install node.js
