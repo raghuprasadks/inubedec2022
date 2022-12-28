@@ -1,0 +1,14 @@
+React: Java script front end library
+Back end : Web API - Webservices/ Java Webservices/
+Component based architecture
+Single Page Application (SPA) - index.html
+
+Apply object oriented concepts into the front end
+Facebook - facebook feeds
+
+java script
+Higher order functions
+map,filter,reduce - 
+ES - Ecma Script - official name
+ES5 - 2015 class,module,
+ES6

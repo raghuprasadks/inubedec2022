@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Higher Order Functions</title>
+</head>
+<body>
+	<h1>Arrow Functions</h1>
+
+<script type="text/javascript">
+	
+	function greet(){
+		console.log('Welcome to js')
+	}
+	greet()
+
+	var multiply = function (n1,n2){
+		console.log("multiplication ",n1*n2);
+	}
+	multiply(10,5)
+	console.log('arrow function')
+	
+	greetarrow=()=>console.log('greet with arrow function')
+	greetarrow()
+
+	multiplyarrow=(n1,n2)=>console.log("multiplication arrow",n1*n2)
+
+	multiplyarrow(20,14)
+
+	add=function(n1,n2){
+		return n1+n2
+	}
+
+	result = add(100,150)
+	console.log('regular add ',result)
+
+	addarrow=(n1,n2)=>n1+n2
+	result = addarrow(100,75)
+	console.log('arrow function add ',result)
+
+	si=(p,r,t)=>(p*r*t/100)
+	calsi = si(10000,6,1)
+	console.log('calsi ',calsi)
+	
+
+</script>
+</body>
+</html>
