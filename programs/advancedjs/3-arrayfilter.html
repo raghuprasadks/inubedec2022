@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filter</title>
+</head>
+<body>
+	<h1>Filter</h1>
+
+<script type="text/javascript">
+	marks=[20,19,17,12,11,13,16,19]
+	console.log('filter with arrow function')
+	markslt15 = marks.filter((mark)=>mark<15)
+	console.log('markslt15 ',markslt15)
+	markseven = marks.filter((mark)=>mark%2==0)
+	console.log('markseven ',markseven)
+	totalmarks = marks.reduce((total,mark)=>total+mark)
+	console.log('total marks :##',totalmarks)
+
+</script>
+</body>
+</html>
