@@ -14,3 +14,32 @@ ES5 - 2015 class,module,export,spread
 ES6
 
 install node.js
+
+React environment
+npx create-react-app <name of the app>
+
+
+npm - node package manager
+npx - node package execute
+
+DOM - Document Object Model
+Tree kind of a structure
+html
+body , head
+h1,p,div->p
+
+React Virtual DOM
+original DOM - replica
+1. Download and install node.js
+2. Create a react application
+npx create-react-app basicreactapp
+step 3 : cd basicreactapp
+step 4 : npm start
+http://localhost:3000/
+
+step 5: to open in visual studio code
+code .
+
+index.html
+index.js
+modified app.js
