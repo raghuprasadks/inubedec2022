@@ -43,3 +43,20 @@ code name year position
 
 ADD part
 list 
+
+
+4. IPL Dashboard - Create,Read,Delete,total,Search
+
+
+Search <text - player name> <Go>
+code,name,team,season,runs,wickets
+1,virat,rcb,2022,400,0
+2,KL rahul,pune,2022,500,0
+3,jadeja,csk,2022,225,6
+total runs <1125> total wickets <6>
+<add form>
+
+
+
+
+
