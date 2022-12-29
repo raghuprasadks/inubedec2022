@@ -1,0 +1,6 @@
+react
+npx create-react-app <app name>
+cd <app name>
+npm start
+
+1.GroceryList

@@ -4,7 +4,7 @@ import Header from './Header';
 import Content from './Content';
 import DemoForm from './components/DemoForm';
 import SimpleInterest from './components/SimpleInterest';
-
+import GroceryList from './components/GroceryList';
 function App() {
   return (
     <div>
@@ -13,8 +13,10 @@ function App() {
       <Header/>
       <Content/>
       <DemoForm></DemoForm>
- */}
       <SimpleInterest/>
+ */}
+      
+      <GroceryList/>
       </div>
   );
 }
