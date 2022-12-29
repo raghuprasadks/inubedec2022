@@ -34,6 +34,8 @@ fifaData=[
 }
 ]
 
+3. Employee CRUD
+
 pass data as property from the app.js
 display data as a tabular form
 

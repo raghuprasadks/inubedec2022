@@ -7,8 +7,11 @@ import SimpleInterest from './components/SimpleInterest';
 import GroceryList from './components/GroceryList';
 import Employee from './components/Employee';
 import Fifa from './components/Fifa';
-function App() {
+import Employees from './crud/Employees';
+import {useState} from 'react'
 
+function App() {
+  const [employees,setEmployees]=useState([])
   const emp={
     code:1,
     name:'Naveen',
@@ -38,6 +41,12 @@ function App() {
     }
     ]
     
+    const addEmployee=({code,name,desg,sal})=>{
+      const newemp = {code,name,desg,sal} 
+      setEmployees([...employees,newemp])
+      console.log('size of employee list',employees.length)
+      console.log('after adding ',employees)
+    }
   return (
     <div>
       <h1>Welcome to React</h1>
@@ -48,10 +57,11 @@ function App() {
       <SimpleInterest/>
       <GroceryList/>
       <Employee empData={emp}></Employee>
+            <Fifa fifaData={fifaData}></Fifa>
+
  */}
-      
-      <Fifa fifaData={fifaData}></Fifa>
-      
+      <Employees listEmployees={employees} saveEmployee={addEmployee}></Employees>
+ 
       </div>
   );
 }
