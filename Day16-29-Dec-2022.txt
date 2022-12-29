@@ -10,3 +10,33 @@ one way data flow - parent to a child
 props - properties
 
 2.Employee
+
+3. FIFA
+
+fifaData=[
+{
+ code:1,
+ name:'Argentina',
+ year:2022,
+ position:1 
+},
+{
+ code:2,
+ name:'France',
+ year:2022,
+ position:2 
+},
+{
+ code:3,
+ name:'Croatia',
+ year:2022,
+ position:3 
+}
+]
+
+pass data as property from the app.js
+display data as a tabular form
+
+code name year position
+
+
