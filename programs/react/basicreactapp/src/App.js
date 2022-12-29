@@ -6,6 +6,7 @@ import DemoForm from './components/DemoForm';
 import SimpleInterest from './components/SimpleInterest';
 import GroceryList from './components/GroceryList';
 import Employee from './components/Employee';
+import Fifa from './components/Fifa';
 function App() {
 
   const emp={
@@ -15,6 +16,28 @@ function App() {
     desg:'SE',
     sal:40000
   }
+
+  const fifaData=[
+    {
+     code:1,
+     name:'Argentina',
+     year:2022,
+     position:1 
+    },
+    {
+     code:2,
+     name:'France',
+     year:2022,
+     position:2 
+    },
+    {
+     code:3,
+     name:'Croatia',
+     year:2022,
+     position:3 
+    }
+    ]
+    
   return (
     <div>
       <h1>Welcome to React</h1>
@@ -24,10 +47,11 @@ function App() {
       <DemoForm></DemoForm>
       <SimpleInterest/>
       <GroceryList/>
+      <Employee empData={emp}></Employee>
  */}
       
+      <Fifa fifaData={fifaData}></Fifa>
       
-      <Employee empData={emp}></Employee>
       </div>
   );
 }
