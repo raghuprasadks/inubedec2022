@@ -16,10 +16,28 @@ const Employees=({listEmployees,saveEmployee})=>{
       setDesg('')
       setSal(-1)
     }
-    return (        
+    return (
+        <>        
            <div>
            <div>
            <h1>Employee CRUD</h1>
+           <h2>Total Number of Employees : {listEmployees.length}</h2>
+           <table>
+            <tr>
+                <th>Code</th>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Salary</th>                
+            </tr>
+            {listEmployees.map((emp)=>{
+                return <tr key={emp.code}>
+                    <td>{emp.code}</td>
+                    <td>{emp.name}</td>
+                    <td>{emp.desg}</td>
+                    <td>{emp.sal}</td>
+                </tr>
+            })}
+           </table>
            </div>
            <div>
             <form onSubmit={addEmployee}>
@@ -32,7 +50,8 @@ const Employees=({listEmployees,saveEmployee})=>{
             
             </form>
            </div>
-           </div>        
+           </div>  
+           </>      
     )
 }
 
