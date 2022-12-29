@@ -47,6 +47,11 @@ function App() {
       console.log('size of employee list',employees.length)
       console.log('after adding ',employees)
     }
+
+    const deleteEmployee=(code)=>{
+      const afterdel = employees.filter((emp)=>emp.code != code)
+      setEmployees(afterdel)
+    }
   return (
     <div>
       <h1>Welcome to React</h1>
@@ -60,7 +65,7 @@ function App() {
             <Fifa fifaData={fifaData}></Fifa>
 
  */}
-      <Employees listEmployees={employees} saveEmployee={addEmployee}></Employees>
+      <Employees listEmployees={employees} saveEmployee={addEmployee} deleteEmployee={deleteEmployee}></Employees>
  
       </div>
   );

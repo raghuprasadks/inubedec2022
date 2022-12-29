@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 
 
-const Employees=({listEmployees,saveEmployee})=>{
+const Employees=({listEmployees,saveEmployee,deleteEmployee})=>{
 
     const [code,setCode]=useState(-1)
     const [name,setName]=useState('')
@@ -16,6 +16,11 @@ const Employees=({listEmployees,saveEmployee})=>{
       setDesg('')
       setSal(-1)
     }
+    /**
+    const deleteEmployee=(code)=>{
+        console.log('employee code ',code)
+    }
+     */
     return (
         <>        
            <div>
@@ -27,7 +32,8 @@ const Employees=({listEmployees,saveEmployee})=>{
                 <th>Code</th>
                 <th>Name</th>
                 <th>Designation</th>
-                <th>Salary</th>                
+                <th>Salary</th>
+                <th>Select</th>                
             </tr>
             {listEmployees.map((emp)=>{
                 return <tr key={emp.code}>
@@ -35,6 +41,7 @@ const Employees=({listEmployees,saveEmployee})=>{
                     <td>{emp.name}</td>
                     <td>{emp.desg}</td>
                     <td>{emp.sal}</td>
+                    <td><button onClick={()=>deleteEmployee(emp.code)}>Delete</button></td>
                 </tr>
             })}
            </table>
