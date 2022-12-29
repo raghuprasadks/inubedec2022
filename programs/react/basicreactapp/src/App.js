@@ -5,7 +5,16 @@ import Content from './Content';
 import DemoForm from './components/DemoForm';
 import SimpleInterest from './components/SimpleInterest';
 import GroceryList from './components/GroceryList';
+import Employee from './components/Employee';
 function App() {
+
+  const emp={
+    code:1,
+    name:'Naveen',
+    dept:'IT',
+    desg:'SE',
+    sal:40000
+  }
   return (
     <div>
       <h1>Welcome to React</h1>
@@ -14,9 +23,11 @@ function App() {
       <Content/>
       <DemoForm></DemoForm>
       <SimpleInterest/>
+      <GroceryList/>
  */}
       
-      <GroceryList/>
+      
+      <Employee empData={emp}></Employee>
       </div>
   );
 }

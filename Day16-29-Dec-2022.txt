@@ -4,3 +4,9 @@ cd <app name>
 npm start
 
 1.GroceryList
+
+one way data flow - parent to a child
+
+props - properties
+
+2.Employee
