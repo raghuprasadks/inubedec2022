@@ -15,12 +15,6 @@ import ClassComponent from './components/ClassComponent';
 import { ClassComponentState } from './components/ClassComponentState';
 import Garage from './components/Garage';
 import Header from './components/Header';
-import Layout from './Layout';
-import Home from './Home';
-import Blogs from './Blogs';
-import Contact from './Contact';
-import NoPage from './NoPage';
-
 function App() {
   const [employees,setEmployees]=useState([])
   const emp={
@@ -64,17 +58,28 @@ function App() {
       setEmployees(afterdel)
     }
   return (
+    <div>
+    <h1>Welcome to React</h1>
+
+  {/**
  
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="blogs" element={<Blogs />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="*" element={<NoPage />} />
-      </Route>
-    </Routes>
-  </BrowserRouter>
+      <Header/>
+      <Content/>
+      <DemoForm></DemoForm>
+      <SimpleInterest/>
+      <GroceryList/>
+      <Employee empData={emp}></Employee>
+            <Fifa fifaData={fifaData}></Fifa>
+            <Employees listEmployees={employees} saveEmployee={addEmployee} deleteEmployee={deleteEmployee}></Employees>
+      <FetchApiDemo></FetchApiDemo>
+<PostAPI></PostAPI>
+<ClassComponent course={emp}/>
+<ClassComponentState></ClassComponentState>
+ <Garage></Garage>
+*/}
+ <Header></Header>
+      </div> 
+     
   );
 }
 
