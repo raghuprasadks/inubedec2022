@@ -47,7 +47,6 @@ list
 
 4. IPL Dashboard - Create,Read,Delete,total,Search
 
-
 Search <text - player name> <Go>
 code,name,team,season,runs,wickets
 1,virat,rcb,2022,400,0

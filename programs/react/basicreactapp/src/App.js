@@ -9,6 +9,7 @@ import Employee from './components/Employee';
 import Fifa from './components/Fifa';
 import Employees from './crud/Employees';
 import {useState} from 'react'
+import { FetchApiDemo } from './components/FetchAPIDemo';
 
 function App() {
   const [employees,setEmployees]=useState([])
@@ -63,10 +64,11 @@ function App() {
       <GroceryList/>
       <Employee empData={emp}></Employee>
             <Fifa fifaData={fifaData}></Fifa>
+            <Employees listEmployees={employees} saveEmployee={addEmployee} deleteEmployee={deleteEmployee}></Employees>
+      
 
  */}
-      <Employees listEmployees={employees} saveEmployee={addEmployee} deleteEmployee={deleteEmployee}></Employees>
- 
+      <FetchApiDemo></FetchApiDemo>
       </div>
   );
 }

@@ -1,0 +1,15 @@
+Agenda:
+React hooks - useState(),useEffect()
+Routing
+Integrate .Net WebAPI application with react
+
+component-side effect-back end
+
+fake rest api
+fetchApi()
+
+onload of a page.
+
+https://jsonplaceholder.typicode.com/todos
+
+
