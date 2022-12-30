@@ -10,6 +10,7 @@ import Fifa from './components/Fifa';
 import Employees from './crud/Employees';
 import {useState} from 'react'
 import { FetchApiDemo } from './components/FetchAPIDemo';
+import PostAPI from './components/PostAPI';
 
 function App() {
   const [employees,setEmployees]=useState([])
@@ -65,10 +66,10 @@ function App() {
       <Employee empData={emp}></Employee>
             <Fifa fifaData={fifaData}></Fifa>
             <Employees listEmployees={employees} saveEmployee={addEmployee} deleteEmployee={deleteEmployee}></Employees>
-      
+      <FetchApiDemo></FetchApiDemo>
 
  */}
-      <FetchApiDemo></FetchApiDemo>
+      
       </div>
   );
 }

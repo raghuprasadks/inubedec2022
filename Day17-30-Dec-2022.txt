@@ -12,7 +12,22 @@ onload of a page.
 
 https://jsonplaceholder.typicode.com/todos
 
+fetchapi
 1. Create User component to fetch following
 information from https://jsonplaceholder.typicode.com/users
 
 name,email,city,website and company name
+
+axios
+g global
+npm install -g axios
+
+
+{
+    "userId": 1,
+    "id": 1,
+    "title": "delectus aut autem",
+    "completed": false
+  }
+
+

@@ -1,8 +1,7 @@
 import React from 'react'
 
 const Fifa=(props)=>{
-
-    
+ 
     
     return(
         <div>
