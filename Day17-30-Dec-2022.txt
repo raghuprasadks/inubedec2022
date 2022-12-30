@@ -37,3 +37,14 @@ class based and functional based component
 
 Routing
 
+
+1. Mini project
+Contact Manager project
+
+npm install
+
+
+
+
+
+
