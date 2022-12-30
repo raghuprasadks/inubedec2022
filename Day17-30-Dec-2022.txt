@@ -22,6 +22,8 @@ axios
 g global
 npm install -g axios
 
+npm install axios
+
 
 {
     "userId": 1,

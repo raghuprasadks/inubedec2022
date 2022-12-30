@@ -11,6 +11,8 @@ import Employees from './crud/Employees';
 import {useState} from 'react'
 import { FetchApiDemo } from './components/FetchAPIDemo';
 import PostAPI from './components/PostAPI';
+import ClassComponent from './components/ClassComponent';
+import { ClassComponentState } from './components/ClassComponentState';
 
 function App() {
   const [employees,setEmployees]=useState([])
@@ -67,9 +69,12 @@ function App() {
             <Fifa fifaData={fifaData}></Fifa>
             <Employees listEmployees={employees} saveEmployee={addEmployee} deleteEmployee={deleteEmployee}></Employees>
       <FetchApiDemo></FetchApiDemo>
-
+<PostAPI></PostAPI>
+<ClassComponent course={emp}/>
  */}
-      <PostAPI></PostAPI>
+      
+      
+      <ClassComponentState></ClassComponentState>
       </div>
   );
 }
