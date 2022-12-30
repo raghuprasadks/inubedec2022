@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './Header';
+//import Header from './Header';
 import Content from './Content';
 import DemoForm from './components/DemoForm';
 import SimpleInterest from './components/SimpleInterest';
@@ -13,7 +13,8 @@ import { FetchApiDemo } from './components/FetchAPIDemo';
 import PostAPI from './components/PostAPI';
 import ClassComponent from './components/ClassComponent';
 import { ClassComponentState } from './components/ClassComponentState';
-
+import Garage from './components/Garage';
+import Header from './components/Header';
 function App() {
   const [employees,setEmployees]=useState([])
   const emp={
@@ -71,10 +72,14 @@ function App() {
       <FetchApiDemo></FetchApiDemo>
 <PostAPI></PostAPI>
 <ClassComponent course={emp}/>
+<ClassComponentState></ClassComponentState>
+ <Garage></Garage>
  */}
       
       
-      <ClassComponentState></ClassComponentState>
+      
+      
+      <Header></Header>
       </div>
   );
 }

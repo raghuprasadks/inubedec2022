@@ -33,3 +33,5 @@ npm install axios
   }
 
 
+class based and functional based component
+
