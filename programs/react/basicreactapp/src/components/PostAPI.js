@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useEffect, useState} from 'react'
 import axios from 'axios'
 
 const PostAPI=()=>{
@@ -9,11 +9,20 @@ const PostAPI=()=>{
     const [completed,setCompleted]=useState(false)
     const [todos,setTodos]=useState([])
 
-    const baseUrl='https://jsonplaceholder.typicode.com/todos/'
-    const addTodo=(e)=>{
+    const baseUrl='https://jsonplaceholder.typicode.com/todos'
 
+    useEffect(()=>{
+        console.log('add effect')
+        axios.get(baseUrl)
+        .then(response=>setTodos(response.data))
+
+    },[])
+
+    const addTodo=(e)=>{
+        console.log('add to do')
         const todo = {userId,id,title,completed}
-        baseUrl.axios.post(baseUrl,todo)
+        console.log('data submitted ',todo)
+        axios.post(baseUrl,todo)
         .then((response) => {
             console.log("response data ",response.data)
           setTodos([...todos,response.data])

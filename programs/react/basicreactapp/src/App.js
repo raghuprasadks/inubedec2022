@@ -69,7 +69,7 @@ function App() {
       <FetchApiDemo></FetchApiDemo>
 
  */}
-      
+      <PostAPI></PostAPI>
       </div>
   );
 }
