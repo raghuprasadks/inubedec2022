@@ -42,6 +42,7 @@ Routing
 Contact Manager project
 
 npm install
+npm start
 
 
 
