@@ -1,0 +1,22 @@
+Weekly test  - React
+
+1. Develop a react app to demonstrate CRUD
+for Customer Management
+
+ADD,Delete,Update,List
+
+Fields are
+
+Customer Id
+Name
+Email
+Mobile
+address
+Location
+Pin code
+<Add Customer><Edit>
+<Customer add component>
+<Customer List component> 
+Raghu raghu@gmail.com 9845547471 560077 <Update> <Delete>
+
+
